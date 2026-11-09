@@ -1,23 +1,14 @@
-# NLP Pipeline Introduction Workshop - Python dependencies
-# Tested with Python 3.12.7 on Windows (VS Code): Restart Kernel + Run All, no errors.
-# Install: pip install -r requirements.txt
-
-# Core NLP and machine learning
 nltk==3.9.1
 scikit-learn==1.7.0
 numpy==2.3.1
 scipy==1.16.0
 pandas==2.3.1
 
-# Part 6 (BERT question answering): transformers 5.x removed the
-# "question-answering" pipeline, so stay on the 4.x line
 transformers==4.53.0
 torch==2.7.1
 
-# Charts (team rule: Plotly for any chart; matplotlib used by the original notebook)
 plotly==6.2.0
 matplotlib==3.10.3
 
-# Jupyter kernel for VS Code, and nbformat so Plotly renders inside notebooks
 ipykernel==6.29.5
 nbformat==5.10.4
